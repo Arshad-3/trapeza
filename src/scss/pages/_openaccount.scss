@@ -1,5 +1,8 @@
 .logbody {
     background-image: url(/src/assets/images/grey-triangle-pattern-seamless-background-1.jpg);
+    animation: expand .8s ease forwards;
+    transition: all .8s ease;
+
 
 }
 .login {
