@@ -99,9 +99,10 @@ body {
     animation-delay: 3s;
 }
 .text-black{
-    background-color: rgba(33, 33, 36, 0.856);
+    background-color: #92bf58a1;
     padding: 60px 30px;
     border-radius: 7px;
+    backdrop-filter: blur(10px);
 }
 .col-lg-6 {
     padding-left: 50px;
@@ -153,6 +154,7 @@ body {
   }
 
  h1{
+   
     transform: translateY(500px);
     animation: slideUp .8s ease-in-out forwards .8s;
     
@@ -180,6 +182,4 @@ body {
   
   .reveal.active{
     transform: translateY(0);
-    opacity: 1;
-  }
-  
+    opacity: 1;}
