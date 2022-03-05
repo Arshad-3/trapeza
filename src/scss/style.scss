@@ -102,17 +102,16 @@ body {
     background-color: #92bf58a1;
     padding: 60px 30px;
     border-radius: 7px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(8px);
+    .mb-4{
+        color: white;
+    }
 }
 .col-lg-6 {
     padding-left: 50px;
     padding-right: 30px;
 }
-.textblack {
-    .mb-4{
-        color: whitesmoke;
-    }
-}
+
 
 .navbar{
     z-index: 10;
